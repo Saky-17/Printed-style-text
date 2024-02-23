@@ -1,4 +1,4 @@
-const msgStr = prompt()
+const msgStr = "yourstring" //only in small with no space
 const msgArr = Array.from(msgStr);
 
 let alpha=[]
