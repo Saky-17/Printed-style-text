@@ -6,8 +6,6 @@ for(let i = 97;i<=122;i++){
   alpha.push(String.fromCharCode(i));
 }
 
-// let caps=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
-
 let n = alpha.length;
 Array.prototype.printer = function (){
   let result = '';
@@ -30,19 +28,3 @@ Array.prototype.printer = function (){
   }
 }
   msgArr.printer();
-
-// let randomizer = () =>{
-
-//   let randNum = Math.random();
-
-//   for(let j=0;j<26;j++){
-//     if(randNum<(j+1)/26 && randNum>(j)/26){
-//      randAlpha = alpha[j];
-//     }
-//   }
-
-//   console.log(result+randAlpha);
-//   if(randAlpha !== this[i]){
-//   setTimeout(()=>{randomizer()},300);}
-// }
-//   randomizer()
